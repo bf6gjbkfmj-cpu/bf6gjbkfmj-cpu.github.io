@@ -1,21 +1,52 @@
-<!DOCTYPE html><html lang='ne'><head><meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<title>Hira Adhikari Portfolio</title>
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hira Adhikari | Portfolio</title>
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:#fff;font-family:Arial,sans-serif}
-header{padding:18px;background:#050505;border-bottom:1px solid #222}
-.logo{color:#e11;font-size:28px;font-weight:bold}
-.hero{padding:20px;text-align:center}
-.hero img{width:100%;max-width:1024px;border-radius:14px}
-.note{padding:20px;max-width:900px;margin:auto;color:#ccc}
-.btn{display:inline-block;background:#d00;color:#fff;padding:12px 22px;border-radius:30px;text-decoration:none;margin-top:15px}
-</style></head><body>
-<header><div class='logo'>H HIRA ADHIKARI</div></header>
-<section class='hero'>
-<h1>Writer • Creator • Digital Strategist</h1>
-<img src='reference-design.jpg' alt='Reference Design'>
-<div class='note'>
-यो ZIP मा index.html तयार छ। यही फोल्डरमा reference-design.jpg राखेपछि वेबसाइट यही लेआउटमा देखिन्छ।
-<br><a class='btn' href='#'>Explore My Work</a>
-</div></section></body></html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    min-height:100%;
+    background:#000;
+    overflow-x:hidden;
+    font-family:Arial,sans-serif;
+}
+
+.wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    background:#000;
+}
+
+.design{
+    width:100%;
+    max-width:1024px;
+    display:block;
+    height:auto;
+}
+
+@media(max-width:768px){
+    .design{
+        width:100%;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+    <img src="reference-design.jpg" class="design" alt="Hira Adhikari Portfolio">
+</div>
+
+</body>
+</html>
