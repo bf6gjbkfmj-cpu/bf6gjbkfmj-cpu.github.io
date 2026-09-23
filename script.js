@@ -1,0 +1,1 @@
+const t=document.getElementById('theme');const m=document.getElementById('menu');document.getElementById('menuBtn').onclick=()=>m.classList.toggle('open');t.onclick=()=>{document.body.classList.toggle('light');t.textContent=document.body.classList.contains('light')?'☀':'☾'};
