@@ -1,14 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{font-family:Arial,sans-serif;background:#050505;color:#fff}
-body.light{background:#f5f5f5;color:#111}
-.nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:16px 24px;background:rgba(0,0,0,.65);backdrop-filter:blur(14px);z-index:9}
-.brand{display:flex;align-items:center;gap:10px;font-weight:700}.brand img{width:36px}
-.brand span{letter-spacing:1px}nav a{color:#fff;text-decoration:none;margin-left:18px}.icons button{background:none;border:none;color:#fff;font-size:22px;margin-left:8px;cursor:pointer}
-.hero{min-height:100vh;background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.82)),url('assets/hero.svg') center/cover;display:flex;align-items:center;padding:110px 8%}
-.overlay{max-width:640px}.small{letter-spacing:3px;color:#bbb}.overlay h1{font-size:70px;line-height:1}.overlay h1 span{display:block;color:#d90429}.overlay h3{margin:18px 0}
-.buttons{display:flex;gap:14px;margin-top:24px;flex-wrap:wrap}.btn,.ghost{padding:14px 22px;border-radius:30px;text-decoration:none;font-weight:bold}.btn{background:#d90429;color:#fff}.ghost{border:1px solid #fff;color:#fff}
-.panel{max-width:1100px;margin:34px auto;padding:28px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:22px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:18px}.grid article,.gallery div{background:#111;border:1px solid #333;border-radius:14px;padding:28px;text-align:center}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:18px}.gallery div{height:130px}
-footer{text-align:center;padding:36px;color:#999}
-@media(max-width:800px){nav{display:none;position:absolute;top:68px;left:0;right:0;background:#111;padding:18px}nav.open{display:flex;flex-direction:column;gap:12px}.overlay h1{font-size:44px}}
+body{font-family:Arial;background:#050505;color:#fff}nav a{color:#fff;margin:8px}header{padding:16px;background:#111}main{padding:40px}
